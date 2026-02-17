@@ -76,7 +76,7 @@ These findings align with established psycholinguistic research on word recognit
 
 ## Part II: Hypothesis Testing
 
-### Hypothesis 1: Language Model Probability vs. Frequency (10 marks)
+### Hypothesis 1: Language Model Probability vs. Frequency 
 
 **Hypothesis:** Language model probabilities (GPT-3 surprisal) are better predictors of reading time than word frequency.
 
@@ -121,7 +121,7 @@ The modest R² values are expected for token-level analysis with single predicto
 
 ---
 
-### Hypothesis 2: Content vs. Function Words (15 marks)
+### Hypothesis 2: Content vs. Function Words
 
 **Hypothesis:** Content words are processed differently than function words.
 
@@ -196,7 +196,7 @@ Using spaCy's en_core_web_sm lemmatizer:
 
 The FOBS model organizes lexical memory hierarchically, with root forms at the top level and surface forms arranged by frequency within each root bin.
 
-### Hypothesis 1: Root vs. Surface Frequency (10 marks)
+### Hypothesis 1: Root vs. Surface Frequency 
 
 **Hypothesis:** Root (lemma) frequency predicts reading times better than surface frequency.
 
@@ -430,3 +430,4 @@ Based on the comprehensive analysis of 8,525 word tokens from the Natural Storie
     - Classify using morphological heuristics: words in base dictionary = pseudo-affixed
     - Manual: Select 5 matched pairs controlling for length and frequency
     - Perform independent t-tests comparing RT distributions
+
